@@ -9,7 +9,7 @@
  #### de manera que cuando pongamos en nuestro navegador alu5912/series nos aparecera en pantalla lo que hemos creado
  ![imagen](./img/sistem-available.png)
 
- #### 3 /hora tenemos que crear el enlace simbolico con este comando
+ #### 3 /ahora tenemos que meternos en sites-enable y crear el enlace simbolico con este comando
  ![imagen](./img/hacemoselenlacesimbolico.png)
 #### que es como un acceso directo que hara que todo se muestre cuando pongamos la ruta en el navegador
 
