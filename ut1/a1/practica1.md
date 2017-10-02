@@ -1,4 +1,4 @@
-# PRACTICA con ningx
+# PRACTICA CON NINGX
 
 #### 1 /primero metemos nuestro index.html junto con su css en la carpeta "webapps/series"
 
