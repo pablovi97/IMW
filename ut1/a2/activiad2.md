@@ -1,4 +1,4 @@
-### Listado de directorios con NGINX
+# Listado de directorios con NGINX
 
 * ### Paso-1
     #### Creamos la carpeta "shared"
