@@ -73,15 +73,16 @@
            http://www.redirect.aluXXXX.me/hola/        
 
 
-   * Para ello ponemos un listen al puerto 80 para paginas web , ponemos el server_name que nos dicen , la ruta y lo nuevo seria poner return 301 y la pagina que queremos que nops reedirigan  mas los location con "/test"  "/probando" "/hola" de tal forma:   
+   * Para ello ponemos un listen al puerto 80 para paginas web , ponemos el server_name que nos dicen , la ruta y lo nuevo seria poner return 301 y la pagina que queremos que nops reedirigan  mas los location con "/test"  "/probando" "/hola" de tal forma:     
 
-    ![imagen](./IMG/adios.PNG)    
 
-    *asi cuando pongamos el link nos redigira a esta pagina la cual hemos descomprimido y puesto en cierta ruta*  
+  ![imagen](./IMG/adios.PNG)    
 
-      ![imagen](./IMG/hola.PNG)   
+  *asi cuando pongamos el link nos redigira a esta pagina la cual hemos descomprimido y puesto en cierta ruta*  :
 
-    * Segunda direccion     
+  ![imagen](./IMG/hola.PNG)   
+
+  * Segunda direccion     
 
            http://target.alu5912.me
 * Tenemos que descargar la pagina descomprimir en la ruta para que nos salga en pantalla   
