@@ -75,7 +75,7 @@
 
    * Para ello ponemos un listen al puerto 80 para paginas web , ponemos el server_name que nos dicen , la ruta y lo nuevo seria poner return 301 y la pagina que queremos que nops reedirigan  mas los location con "/test"  "/probando" "/hola" de tal forma:   
 
-    ![imagen](./IMG/4.3.PNG)    
+    ![imagen](./IMG/4.PNG)    
 
     *asi cuando pongamos el link nos redigira a esta pagina la cual hemos descomprimido y puesto en cierta ruta*  
 
@@ -90,8 +90,12 @@
 
 *fichero del target*    
 
-  ![imagen](./IMG/4.2.PNG)   
-  
+  ![imagen](./IMG/4.2.PNG)     
+
+*lo que descargamos*    
+
+  ![imagen](./IMG/4.imgs.PNG)     
+
 *pagina que descargamos*:  
 
   ![imagen](./IMG/4pag.PNG)
