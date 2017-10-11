@@ -14,7 +14,7 @@
   * En server_name ponemos  como queremos que sea el enlace de la pagina y en root su ubuacion , luego en location ponemos la ubicacion de donde esta ubicado nuestro html para que se vea en pantalla    
 
 
-  *contenido del html * :  
+  *contenido del html* :  
 
   ![imagen](./IMG/1.enlace.PNG)  
 
@@ -57,14 +57,14 @@
    ![imagen](./IMG/2pag.PNG)   
 
   * ## Sitio web 4  
-   *  Primera direccion  
+   * Primera direccion  
 
             http://redirect.alu5912.me  
 
    * Esta direccion se tiene que redirigir a:   
 
           http://target.alu5912.me
-    *  Tambien tenemos que ahcer que se reedirigan a:    
+    * Tambien tenemos que ahcer que se reedirigan a:    
 
            http://redirect.aluXXXX.me/test/    
 
@@ -75,11 +75,11 @@
 
    * Para ello ponemos un listen al puerto 80 para paginas web , ponemos el server_name que nos dicen , la ruta y lo nuevo seria poner return 301 y la pagina que queremos que nops reedirigan  mas los location con "/test"  "/probando" "/hola" de tal forma:   
 
-    ![imagen](./IMG/4.PNG)    
+    ![imagen](./IMG/adios.PNG)    
 
     *asi cuando pongamos el link nos redigira a esta pagina la cual hemos descomprimido y puesto en cierta ruta*  
 
-      ![imagen](./IMG/4pag.PNG)   
+      ![imagen](./IMG/hola.PNG)   
 
     * Segunda direccion     
 
