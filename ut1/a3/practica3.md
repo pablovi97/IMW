@@ -91,7 +91,7 @@
 
 *fichero del target*    
 
-  ![imagen](./IMG/4.2.PNG)     
+  ![imagen](./IMG/80.PNG)     
 
 *lo que descargamos*    
 
