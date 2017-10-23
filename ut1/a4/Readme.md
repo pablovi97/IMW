@@ -8,16 +8,16 @@
 
 * Primero pasamos la pagina del moodle a la maquina de produccion y la descomprimimos :  
 
-![imagen](./IMG/001.PNG)
+![imagen](./IMG/1.PNG)
 
 * Luego creamos el virtual host al que llamaremos php   
 
-![imagen](./IMG/002.PNG)
+![imagen](./IMG/2.PNG)
 * Y Tambien su respectivo enlace simbolico  
 
-![imagen](./IMG/003.PNG)  
+![imagen](./IMG/3.PNG)  
 
-![imagen](./IMG/004.PNG)
+![imagen](./IMG/4.PNG)
 * Por ultimo reiniciamos NGINX  y cuando  accedemos a ("http://php.alu5912.me") ya nos saldria la pagina
 
-![imagen](./IMG/005.PNG)
+![imagen](./IMG/5.PNG)
