@@ -85,7 +85,7 @@
 
 * Reiniciamos nginx , ponemos (now.alu5912.me) y nos saldra lo siguiente porque el servicio no esta escuchando en el socket
 
-![imagen](./IMG/2/014.PNG)  
+![imagen](./IMG/2/parado1.PNG)  
 
 * Para que funcione deberiamos lanzar el scrip ./run.sh  
 
