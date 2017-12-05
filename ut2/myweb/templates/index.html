@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+  <link rel="stylesheet" type="text/css" href="/static/style.css"/>
+</head>
+
+<body>
+   <center>
+    <div id="cabecera">
+    <h1>{{vmachine.name}}</h1>
+    <h2>{{vmachine.os}}</h2>
+    </div>
+     <div id="status">
+<table>
+   
+
+      <h3> {{vmachine.get_status()}}</h3>
+    <td>   <a href="/change_status/0"><img src="https://image.flaticon.com/icons/svg/7/7523.svg" width="50" height="50"></a></td>
+    <td>   <a href="/change_status/1"><img src="https://n6-img-fp.akamaized.net/iconos-gratis/boton-de-juego-jugador-de-forma-circular_318-55778.jpg?size=338&ext=jpg" width="50" height="50"></a></td>
+    <td>  <a href="/change_status/2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Noun_project_-_supprimer_round.svg/768px-Noun_project_-_supprimer_round.svg.png" width="50" height="50"> </a></td>
+  
+</table>  
+  </div>
+</br>
+<div id="info">
+    <table >
+        <tr>
+            <td></td>
+            <td>TOTAL</td>
+            <td>%USADO</td>
+        </tr>
+        <tr>
+            <td>RAM</td>
+          <td>{{vmachine.ram}}GB</td> 
+            <td>{{vmachine.ram_usage()}}%</td>
+        </tr>
+          <tr>
+            <td>CPU</td>
+            <td>{{vmachine.cpu}}Ghz</td>
+            <td>{{vmachine.cpu_usage()}}%</td>
+        </tr> 
+         <tr>
+            <td>HDD</td>
+            <td>{{vmachine.hdd}}MB</td>
+            <td>{{vmachine.hdd_usage()}}%</td>
+        </tr>
+   
+
+    </table>
+   </div> 
+</br>
+ <a href="/run_process"><img src="http://es.seaicons.com/wp-content/uploads/2015/11/User-Interface-Run-Command-icon.png" width="50" height="50"></a>
+</br>
+<div id="pie">
+    <table >
+   {% for proc in vmachine.proc %}
+   <tr><td>* Proceso {{ proc.pid}}</td></tr>
+   <tr><td>RAM: {{proc.ram}} GB | CPU: {{proc.cpu}} Ghz | HDD: {{ proc.hdd}} MB</td></tr>
+   {% endfor %}
+    </table>
+</div>
+</center>
+</body>
+</html>
+

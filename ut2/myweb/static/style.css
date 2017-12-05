@@ -1,0 +1,45 @@
+#cabecera h1{
+      font-family: arial; 
+    }
+
+#cabecera h2{
+    font-family: arial;
+    color:skyblue;
+}
+
+#status td{font-family: arial;
+
+}
+
+#info table{
+    background-color: skyblue;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+     border-top-right-radius: 15px;
+}
+
+a:link{
+    text-decoration: none;
+    font-family: arial;
+}
+
+#pie table{
+    background-color:red; 
+     border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+     border-top-right-radius: 15px;
+
+}
+
+#status1{
+    font-size: large;
+}
+
+
+
+#comp{
+font-family: arial;
+
+}
