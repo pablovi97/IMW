@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+  <link rel="stylesheet" type="text/css" href="/static/style.css"/>
+</head>
+
+<body>
+   <center>
+    <div id="cabecera">
+    <h1>{{vmachine.name}}</h1>
+    <h2>{{vmachine.os}}</h2>
+    </div>
+     <div id="status">
+<table>
+   
+
+      <h3> {{vmachine.get_status()}}</h3>
+    <td>   <a href="/change_status/0">Parar</a></td>
+    <td>   <a href="/change_status/1">Arrancar</a></td>
+    <td>  <a href="/change_status/2">Suspender</a></td>
+  
+</table>  
+  </div>
+</br>
+<div id="info">
+    <table border="1">
+        <tr>
+            <td></td>
+            <td>TOTAL</td>
+            <td>%USADO</td>
+        </tr>
+        <tr>
+            <td>RAM</td>
+          <td>{{vmachine.ram}}GB</td> 
+            <td>{{vmachine.ram_usage()}}%</td>
+        </tr>
+          <tr>
+            <td>CPU</td>
+            <td>{{vmachine.cpu}}Ghz</td>
+            <td>{{vmachine.cpu_usage()}}%</td>
+        </tr> 
+         <tr>
+            <td>HDD</td>
+            <td>{{vmachine.hdd}}MB</td>
+            <td>{{vmachine.hdd_usage()}}%</td>
+        </tr>
+   
+
+    </table>
+   </div> 
+</br>
+ <a href="/run_process">Lanzar proceso</a>
+</br>
+<div id="pie">
+    <table border="1">
+   {% for proc in vmachine.get_process() %}
+   <tr><td> Proceso {{ proc.pid}}</td></tr>
+   <tr><td>RAM: {{proc.ram}} GB | CPU: {{proc.cpu}} Ghz | HDD: {{ proc.hdd}} MB</td></tr>
+   {% endfor %}
+    </table>
+</div>
+</center>
+</body>
+</html>
+

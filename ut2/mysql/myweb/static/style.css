@@ -1,0 +1,30 @@
+#cabecera h1{
+      font-family: arial; 
+    }
+
+#cabecera h2{
+    font-family: arial;
+    color:skyblue;
+}
+
+#status td{font-family: arial;
+
+}
+
+#info table{
+    background-color: skyblue
+}
+
+a:link{
+    text-decoration: none;
+    font-family: arial;
+}
+
+#pie table{
+    background-color:red; 
+
+}
+
+#status1{
+    font-size: large;
+}
