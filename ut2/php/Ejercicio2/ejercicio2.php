@@ -31,7 +31,7 @@ $apellido = $_POST["apellido"];
 
 if ( $salario <= 2000  and $salario >= 1000 ) {
     if ($Edad > 45){
-       $salario = $salario * 0.03;
+       $salario =$salario +( $salario * 0.03);
                   }
     }
     else{
